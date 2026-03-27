@@ -27,16 +27,19 @@ print(my_string[-1])    # last character
 
 
 # #5
-print(len(my_string))   # length of string
+print(5**2 + 34 > 6 + 8/2*34)
 
 
 # #6
-print(my_string.upper())   # uppercase
-print(my_string.lower())   # lowercase
+
+weather = "warm"
+
+if weather == "warm":
+    print("I can go outside")
+else:
+    print("I'll stay home")
 
 
 # #7
-print(my_string.replace("fox", "cat"))
-print(my_string)
-print(f"My string is: {my_string}")
-
+# Fix expression to get 22
+print((4 + 6*(9-3)/2))
